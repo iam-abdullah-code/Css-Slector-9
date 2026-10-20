@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+
+#main-heading {
+  color: #1a73e8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.container > p {
+  color: green;
+  font-weight: bold;
+}
+
+
+.container p {
+  line-height: 1.6;
+}
+
+h3 + p {
+  color: red;
+  font-style: italic;
+}
+
+
+h3 ~ p {
+  border-left: 4px solid #1a73e8;
+  padding-left: 8px;
+  margin-top: 5px;
+}
